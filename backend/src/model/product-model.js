@@ -3,6 +3,9 @@ const productSchema = new mongoose.Schema ({
     productName: {
         type: String,
     },
+    categoryID: {
+        type: String
+    },
     brand: {
         type: String
     },
